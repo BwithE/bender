@@ -1,21 +1,24 @@
 # bender
 A lightweight TCP proxy that bends traffic between a client and a server.
 
-## Compile for 64bit linux
+---
+## Compile
+64bit linux
 ```
 gcc lin-proxy.c -o proxy
 ```
 
-## Compile for 64bit Windows
+64bit Windows
 ```
 x86_64-w64-mingw32-gcc win-proxy.c -o proxy.exe -lws2_32
 ```
 
-## Compile for 32bit Windows
+32bit Windows
 ```
 i686-w64-mingw32-gcc win-proxy.c -o proxy.exe -lws2_32
 ```
 
+---
 ## Running one proxy
 ```
 ./proxy -l 0.0.0.0:8888 -f 127.0.0.1:80
@@ -23,6 +26,7 @@ i686-w64-mingw32-gcc win-proxy.c -o proxy.exe -lws2_32
 proxy.exe -l 0.0.0.0:8888 -f 127.0.0.1:80
 ```
 
+---
 ## Building multiple proxies via the menu
 ```
 ./proxy     
