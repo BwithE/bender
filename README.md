@@ -3,9 +3,20 @@ A lightweight TCP proxy that bends traffic between a client and a server.
 
 ---
 ## Compile
+
+Dependencies
+```
+apt install -y gcc-multilib g++-multilib build-essential mingw-w64
+```
+
 64bit linux
 ```
 gcc lin-proxy.c -o proxy
+```
+
+32bit linux
+```
+gcc -m32 lin-proxy.c -o proxy
 ```
 
 64bit Windows
