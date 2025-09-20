@@ -3,7 +3,7 @@ A lightweight TCP proxy that bends traffic between a client and a server.
 
 ---
 ## Files
-There are pre-built binaries for 64bit aand 32bit Linux and Windows machines.
+There are pre-built binaries for 64bit and 32bit Linux and Windows machines.
 
 The source code is available for individual compiling.
 
